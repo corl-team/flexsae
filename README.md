@@ -14,7 +14,7 @@ Fused Triton implementations of the TopK and HierarchicalTopK sparse autoencoder
 The Triton kernels target CUDA GPUs and focus on reducing the latency gap between TopK and HierarchicalTopK decoders while keeping memory usage flat.
 
 ## Performance
-Benchmarks were collected on a workload with dictionary size $F = 65\,536$, embedding dimension $D = 2\,304$, and sparsity budgets $K \in \{32, 64, 128\}$. Latency is reported as time per training step (milliseconds) and memory as peak device usage (GiB).
+Benchmarks were collected on a workload with dictionary size $F = 65 536$, embedding dimension $D = 2304$, and sparsity budgets $K \in \{32, 64, 128\}$. Latency is reported as time per training step (milliseconds) and memory as peak device usage (GiB).
 
 | Decoder backend | K=32 (ms / GiB) | K=64 (ms / GiB) | K=128 (ms / GiB) |
 | --- | --- | --- | --- |
