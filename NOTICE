@@ -1,0 +1,16 @@
+Flex SAE Kernels
+Copyright (c) 2025 T-Tech
+
+This project is distributed under the Apache License, Version 2.0. The following
+third-party component is redistributed under its original terms:
+
+- Portions of `torch-ext/flex_sae/topk_kernels.py` are adapted from the Facebook
+  Research project "memory" (https://github.com/facebookresearch/memory).
+  That source is licensed under the Creative Commons Attribution-NonCommercial
+  4.0 International License (CC BY-NC 4.0). Any use of the adapted code must
+  comply with the non-commercial requirements described at
+  https://creativecommons.org/licenses/by-nc/4.0/.
+
+Where the Apache 2.0 license and CC BY-NC 4.0 differ, the more restrictive
+requirements apply to the adapted code. All other files are provided under the
+Apache License, Version 2.0.
