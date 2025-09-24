@@ -4,6 +4,8 @@
 
 Fused Triton implementations of the TopK and HierarchicalTopK sparse autoencoder (SAE) decoder losses described in *Train One Sparse Autoencoder Across Multiple Sparsity Budgets to Preserve Interpretability and Accuracy*.
 
+**This work has been accepted to [EMNLP 2025](https://2025.emnlp.org/).**
+
 ## Overview
 - `torch-ext/flex_sae/` contains the Triton kernels alongside torch reference implementations.
 - `tests/` hosts CUDA-backed property tests that ensure numerical parity across dtypes and kernels.
