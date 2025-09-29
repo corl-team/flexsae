@@ -1,9 +1,3 @@
----
-license: apache-2.0
-tags:
-  - kernel
-  - sae
----
 # Flex SAE Kernels
 
 [![ArXiv](https://img.shields.io/badge/arXiv-2505.24473-b31b1b.svg)](https://arxiv.org/abs/2505.24473)
@@ -58,7 +52,7 @@ The Triton kernels target CUDA GPUs and focus on reducing the latency gap betwee
 
 ## Example
 
-You can find example usage in [example.py](https://huggingface.co/t-tech/flex-sae/blob/main/example.py). 
+You can find example usage in [example.py](example.py). 
 ```python
 # /// script
 # dependencies = [
