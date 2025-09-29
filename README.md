@@ -66,7 +66,7 @@ import torch
 import numpy as np
 from kernels import get_kernel
 
-flex = get_kernel("t-tech/flex-sae")  #Fast Kernels
+flex = get_kernel("t-tech/flex-sae")  # Fast Kernels
 
 @torch.compile(fullgraph=True)
 def hierarchical_sae_loss(
